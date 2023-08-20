@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+}
+
+.btn-primary {
+    border: none;
+    border-radius: 5px;
+    background: #F15B22;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    height: 40px;
+ 
+}
+
+/* Header Section design */
+header {
+    height: 600px;
+    background-image: url('../images/banner/banner1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-info{
+    margin-right: 201px;
+}
+
+.banner-title {
+    color: #151414;
+    padding-top: 120px;
+    font-size: 65px;
+    font-weight: 700;
+    text-align: right;
+    padding-left: 230px;
+}
+
+.banner-paragraph {
+    color: #444343;
+    margin-top: 24px;
+    text-align: right;
+}
+
+.banner-btn {
+    text-align: right;
+    margin-top: 32px;
+}
