@@ -77,3 +77,34 @@ header {
     margin-left: 16px;
 }
 /* My plans section */
+.plan{
+    margin-top: 150px;
+}
+.plan-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+}
+
+.plan-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px; 
+}
+.plan-desc-title{
+    margin-top: 18px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.plan-desc-paragraph{
+    margin-top: 16px;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+}
+.plan-img{
+    width: 92px;
+    display: block;
+    margin: auto;
+}
