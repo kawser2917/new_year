@@ -43,3 +43,37 @@ header {
     text-align: right;
     margin-top: 32px;
 }
+/* Failure section started */
+.failure{
+    display: flex;
+    gap: 120px;
+    margin-top: 140px;
+ 
+}
+.failure-info{
+    width: 414px;
+}
+
+.failure img{
+    padding-left: 150px;
+}
+
+.failure-title{
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+    padding-top: 200px;
+}
+
+.failure-paragraph{
+    margin-top: 24px;
+    line-height: 26px;
+}
+.common-mistake{
+    margin-top: 16px;
+}
+.fa-check{
+    color: green;
+    margin-left: 16px;
+}
+/* My plans section */
