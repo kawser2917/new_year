@@ -10,7 +10,15 @@
     font-size: 20px;
     font-weight: 600;
     height: 40px;
- 
+
+}
+
+.btn-secondary {
+    border-radius: 5px;
+    background: #FFF;
+    padding: 16px 20px;
+    color: #F15B22;
+    text-align: center;
 }
 
 /* Header Section design */
@@ -20,7 +28,8 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.banner-info{
+
+.banner-info {
     margin-right: 201px;
 }
 
@@ -43,68 +52,145 @@ header {
     text-align: right;
     margin-top: 32px;
 }
+
 /* Failure section started */
-.failure{
+.failure {
     display: flex;
     gap: 120px;
     margin-top: 140px;
- 
+
 }
-.failure-info{
+
+.failure-info {
     width: 414px;
 }
 
-.failure img{
+.failure img {
     padding-left: 150px;
 }
 
-.failure-title{
+.failure-title {
     font-size: 40px;
     font-weight: 700;
     color: #151414;
     padding-top: 200px;
 }
 
-.failure-paragraph{
+.failure-paragraph {
     margin-top: 24px;
     line-height: 26px;
 }
-.common-mistake{
+
+.common-mistake {
     margin-top: 16px;
 }
-.fa-check{
+
+.fa-check {
     color: green;
     margin-left: 16px;
 }
+
 /* My plans section */
-.plan{
+.plan {
     margin-top: 150px;
 }
-.plan-title{
+
+.plan-title {
     text-align: center;
     font-size: 40px;
     font-weight: 700;
     color: #151414;
 }
 
-.plan-container{
+.plan-container {
     display: flex;
     justify-content: space-around;
-    margin-top: 50px; 
+    margin-top: 50px;
 }
-.plan-desc-title{
+
+.plan-desc-title {
     margin-top: 18px;
     font-size: 30px;
     font-weight: 700;
 }
-.plan-desc-paragraph{
+
+.plan-desc-paragraph {
     margin-top: 16px;
     font-size: 25px;
     font-weight: 500;
     text-align: center;
 }
-.plan-img{
+
+.plan-img {
     width: 92px;
     display: block;
     margin: auto;
+}
+
+/* Extra practice */
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+}
+
+.child {
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%), url('../images/watch.png');
+    border-radius: 8px;
+    width: 1140px;
+    height: 250px;
+}
+
+.child-title {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 59px;
+    margin-left: 64px;
+}
+
+.child-btn {
+    margin-left: 64px;
+    margin-top: 24px;
+}
+/* Footer Section Design */
+.footer-parent{
+    background-color: black;
+    margin-top: 130px;
+    display: flex;
+}
+.footer-info{
+    margin-top: 130px;
+    margin-left: 150px;
+    color: #FFF;
+    line-height: 26px;
+    width: 50%;
+}
+.footer-title{
+    font-size: 45px;
+    font-weight: 700;
+}
+.footer-paragraph{
+    margin-top: 16px;
+    line-height: 26px;
+}
+.footer-parent img{
+    margin-top: 32px;
+ 
+}
+.sub-title{
+    margin-top: 130px;
+    font-size: 25px;
+    color: #fff;
+}
+input[type="email"]{
+    margin-top: 31px;
+    background-color: #151414;
+    color: #fff;
+    padding:16px 22px;
+}
+.footer-btn{
+    margin-top: 16px;
+    
 }
